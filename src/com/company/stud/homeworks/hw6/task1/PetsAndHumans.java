@@ -10,11 +10,12 @@ public class PetsAndHumans {
 
     Human human1 = new Human("Vasily", murka);
     Human human2 = new Human("Tatyana", sharik);
+    Human human3 = new Human("Tatyana", sharik);
 
     human1.play();
     human2.play(human1.getPet());
     human2.play(nemo);
-    list
+
     // mvp - minimum viable product
   }
 
