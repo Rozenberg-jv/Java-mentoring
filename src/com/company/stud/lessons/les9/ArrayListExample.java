@@ -1,9 +1,11 @@
 package com.company.stud.lessons.les9;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class ArrayListExample {
 
@@ -21,6 +23,22 @@ public class ArrayListExample {
     list2.add("abc");
     list2.add("5");
     list2.add("weger");
+
+    list1.forEach(new Consumer<String>() {
+      @Override
+      public void accept(String s) {
+        System.out.println(s);
+      }
+    });
+    list1.forEach((String el) -> {
+      System.out.println(el);
+    });
+    list1.forEach(System.out::println);
+
+    List<String> list = Arrays.asList();
+
+    // Ctrl + Ins
+    // Shift + Ins
 
     /*System.out.println(list1.get(1));
     System.out.println(list1.size());

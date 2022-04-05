@@ -18,8 +18,6 @@ public class IntExample {
     System.out.println(clazz1.getDefaultInt(100));
     System.out.println(clazz2.getDefaultInt(100));
 
-    List<String>
-
     System.out.println();
 
   }
