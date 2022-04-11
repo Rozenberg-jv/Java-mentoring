@@ -9,7 +9,7 @@ public class IntListSumTask {
   public static void main(String[] args) {
 
     List<Integer> list1 = Arrays.asList(1, 5, 3);
-    List<Integer> list2 = Arrays.asList(2, -5, 4, 10, 15);
+    List<Integer> list2 = Arrays.asList(2, -5, 4, 10);
 
     List<Integer> result = sumLists(list1, list2);
     System.out.println(result);
