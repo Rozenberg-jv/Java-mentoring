@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.Writer;
 import java.nio.Buffer;
+import java.nio.file.Path;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,7 +23,8 @@ public class IOStreamsExample {
 
 //    File inputFile = new File("D:\\stud\\input.in");
     File outputFile = new File("D:\\stud\\input.out");
-
+//    Path path = Path.of("");
+//    path.toString();
     try (
       BufferedReader rdr = new BufferedReader(new InputStreamReader(System.in));
       BufferedWriter out = new BufferedWriter(new FileWriter(outputFile))
